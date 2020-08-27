@@ -57,30 +57,12 @@ button {
   margin-right: 7px;
 }
 h1 {
-  background-color: #E7EAE9;
   margin: 0;
   text-transform: uppercase;
-  animation: animate 10s ease-in-out infinite alternate-reverse forwards;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
 }
 
-@keyframes animate {
-  0% , 100% {
-    color: green;
-    font-style: bold;
-    text-align: left;
-  }
-  25%, 75% {
-    color: blue;
-    font-style: italic;
-    text-align: center;
-  }
-  50% {
-    color: red;
-    font-style: normal;
-    text-align: right;
-    text-decoration: underline;
-  }
-}
 
 
 
